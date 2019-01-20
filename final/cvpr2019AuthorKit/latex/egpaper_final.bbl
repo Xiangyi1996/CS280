@@ -1,0 +1,181 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{arbelaez2011contour}
+P.~Arbelaez, M.~Maire, C.~Fowlkes, and J.~Malik.
+\newblock Contour detection and hierarchical image segmentation.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  33(5):898--916, 2011.
+
+\bibitem{bai2017deep}
+M.~Bai and R.~Urtasun.
+\newblock Deep watershed transform for instance segmentation.
+\newblock In {\em 2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 2858--2866. IEEE, 2017.
+
+\bibitem{dai2015convolutional}
+J.~Dai, K.~He, and J.~Sun.
+\newblock Convolutional feature masking for joint object and stuff
+  segmentation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3992--4000, 2015.
+
+\bibitem{dai2016instance}
+J.~Dai, K.~He, and J.~Sun.
+\newblock Instance-aware semantic segmentation via multi-task network cascades.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3150--3158, 2016.
+
+\bibitem{ehsani2017segan}
+K.~Ehsani, R.~Mottaghi, and A.~Farhadi.
+\newblock Segan: Segmenting and generating the invisible.
+\newblock {\em arXiv preprint arXiv:1703.10239}, 2(3), 2017.
+
+\bibitem{felzenszwalb2010object}
+P.~F. Felzenszwalb, R.~B. Girshick, D.~McAllester, and D.~Ramanan.
+\newblock Object detection with discriminatively trained part-based models.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  32(9):1627--1645, 2010.
+
+\bibitem{hariharan2014simultaneous}
+B.~Hariharan, P.~Arbel{\'a}ez, R.~Girshick, and J.~Malik.
+\newblock Simultaneous detection and segmentation.
+\newblock In {\em European Conference on Computer Vision}, pages 297--312.
+  Springer, 2014.
+
+\bibitem{hariharan2015hypercolumns}
+B.~Hariharan, P.~Arbel{\'a}ez, R.~Girshick, and J.~Malik.
+\newblock Hypercolumns for object segmentation and fine-grained localization.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 447--456, 2015.
+
+\bibitem{he2016deep}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{he2014exemplar}
+X.~He and S.~Gould.
+\newblock An exemplar-based crf for multi-instance object segmentation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 296--303, 2014.
+
+\bibitem{kar2015amodal}
+A.~Kar, S.~Tulsiani, J.~Carreira, and J.~Malik.
+\newblock Amodal completion and size constancy in natural scenes.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 127--135, 2015.
+
+\bibitem{li2016iterative}
+K.~Li, B.~Hariharan, and J.~Malik.
+\newblock Iterative instance segmentation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3659--3667, 2016.
+
+\bibitem{li2016amodal}
+K.~Li and J.~Malik.
+\newblock Amodal instance segmentation.
+\newblock In {\em European Conference on Computer Vision}, pages 677--693.
+  Springer, 2016.
+
+\bibitem{li2017scene}
+Y.~Li, W.~Ouyang, B.~Zhou, K.~Wang, and X.~Wang.
+\newblock Scene graph generation from objects, phrases and region captions.
+\newblock In {\em ICCV}, 2017.
+
+\bibitem{li2017fully}
+Y.~Li, H.~Qi, J.~Dai, X.~Ji, and Y.~Wei.
+\newblock Fully convolutional instance-aware semantic segmentation.
+\newblock In {\em 2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 4438--4446. IEEE, 2017.
+
+\bibitem{Liang2015proposal}
+X.~Liang, Y.~Wei, X.~Shen, J.~Yang, L.~Lin, and S.~Yan.
+\newblock Proposal-free network for instance-level object segmentation.
+\newblock {\em arXiv preprint arXiv:1509.02636}, 2015.
+
+\bibitem{lin2014microsoft}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll{\'a}r, and C.~L. Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In {\em European conference on computer vision}, pages 740--755.
+  Springer, 2014.
+
+\bibitem{long2015fully}
+J.~Long, E.~Shelhamer, and T.~Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 3431--3440, 2015.
+
+\bibitem{pinheiro2014recurrent}
+P.~H. Pinheiro and R.~Collobert.
+\newblock Recurrent convolutional neural networks for scene labeling.
+\newblock In {\em 31st International Conference on Machine Learning (ICML)},
+  number EPFL-CONF-199822, 2014.
+
+\bibitem{pinheiro2015learning}
+P.~O. Pinheiro, R.~Collobert, and P.~Doll{\'a}r.
+\newblock Learning to segment object candidates.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  1990--1998, 2015.
+
+\bibitem{pinheiro2016learning}
+P.~O. Pinheiro, T.-Y. Lin, R.~Collobert, and P.~Doll{\'a}r.
+\newblock Learning to refine object segments.
+\newblock In {\em European Conference on Computer Vision}, pages 75--91.
+  Springer, 2016.
+
+\bibitem{premachandran2015pascal}
+V.~Premachandran, B.~Bonev, and A.~L. Yuille.
+\newblock Pascal boundaries: A class-agnostic semantic boundary dataset.
+\newblock {\em arXiv preprint arXiv:1511.07951}, 2015.
+
+\bibitem{romera2016recurrent}
+B.~Romera-Paredes and P.~H.~S. Torr.
+\newblock Recurrent instance segmentation.
+\newblock In {\em European Conference on Computer Vision}, pages 312--329.
+  Springer, 2016.
+
+\bibitem{sermanet2013overfeat}
+P.~Sermanet, D.~Eigen, X.~Zhang, M.~Mathieu, R.~Fergus, and Y.~LeCun.
+\newblock Overfeat: Integrated recognition, localization and detection using
+  convolutional networks.
+\newblock {\em arXiv preprint arXiv:1312.6229}, 2013.
+
+\bibitem{shotton2006textonboost}
+J.~Shotton, J.~Winn, C.~Rother, and A.~Criminisi.
+\newblock Textonboost: Joint appearance, shape and context modeling for
+  multi-class object recognition and segmentation.
+\newblock In {\em European conference on computer vision}, pages 1--15.
+  Springer, 2006.
+
+\bibitem{uhrig2016pixel}
+J.~Uhrig, M.~Cordts, U.~Franke, and T.~Brox.
+\newblock Pixel-level encoding and depth layering for instance-level semantic
+  labeling.
+\newblock In {\em German Conference on Pattern Recognition}, pages 14--25.
+  Springer, 2016.
+
+\bibitem{wang2017detecting}
+J.~Wang, C.~Xie, Z.~Zhang, J.~Zhu, L.~Xie, and A.~Yuille.
+\newblock Detecting semantic parts on partially occluded objects.
+\newblock {\em arXiv preprint arXiv:1707.07819}, 2017.
+
+\bibitem{wang2015unsupervised}
+J.~Wang, Z.~Zhang, C.~Xie, V.~Premachandran, and A.~Yuille.
+\newblock Unsupervised learning of object semantic parts from internal states
+  of cnns by population encoding.
+\newblock {\em arXiv preprint arXiv:1511.06855}, 2015.
+
+\bibitem{witten2016data}
+I.~H. Witten, E.~Frank, M.~A. Hall, and C.~J. Pal.
+\newblock {\em Data Mining: Practical machine learning tools and techniques}.
+\newblock Morgan Kaufmann, 2016.
+
+\bibitem{zhang2018deepvoting}
+Z.~Zhang, C.~Xie, J.~Wang, L.~Xie, and A.~L. Yuille.
+\newblock Deepvoting: A robust and explainable deep network for semantic part
+  detection under partial occlusion.
+\newblock Technical report, Center for Brains, Minds and Machines (CBMM), 2018.
+
+\end{thebibliography}

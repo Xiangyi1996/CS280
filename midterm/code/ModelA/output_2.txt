@@ -1,0 +1,71 @@
+nohup: ignoring input
+using device: cuda
+Files already downloaded and verified
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.305939
+Train Epoch: 0 [3200/50000 (6%)]	Loss: 2.307119
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 2.304517
+Train Epoch: 0 [9600/50000 (19%)]	Loss: 2.302585
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 2.302585
+Train Epoch: 0 [16000/50000 (32%)]	Loss: 2.302585
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 2.302585
+Train Epoch: 0 [22400/50000 (45%)]	Loss: 2.302585
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 2.302585
+Train Epoch: 0 [28800/50000 (58%)]	Loss: 2.302585
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 2.302585
+Train Epoch: 0 [35200/50000 (70%)]	Loss: 2.302585
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 2.302585
+Train Epoch: 0 [41600/50000 (83%)]	Loss: 2.302585
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 2.302585
+Train Epoch: 0 [48000/50000 (96%)]	Loss: 2.302585
+Midterm_2.py:98: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  100. * batch_idx / len(train_loader), loss.data[0]))
+Midterm_2.py:112: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  test_loss += criterion(output, target).data[0]
+
+Test set: Average loss: 0.0187, Accuracy: 1000/10000 (10%)
+
+nohup: ignoring input
+using device: cuda
+Files already downloaded and verified
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.300035
+Train Epoch: 0 [3200/50000 (6%)]	Loss: 2.297646
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 2.305412
+Train Epoch: 0 [9600/50000 (19%)]	Loss: 2.303941
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 2.311379
+Train Epoch: 0 [16000/50000 (32%)]	Loss: 2.298693
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 2.302415
+Train Epoch: 0 [22400/50000 (45%)]	Loss: 2.302585
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 2.302585
+Train Epoch: 0 [28800/50000 (58%)]	Loss: 2.302585
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 2.302585
+Train Epoch: 0 [35200/50000 (70%)]	Loss: 2.302585
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 2.302585
+Train Epoch: 0 [41600/50000 (83%)]	Loss: 2.302585
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 2.302585
+Train Epoch: 0 [48000/50000 (96%)]	Loss: 2.302585
+Midterm_2.py:98: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  100. * batch_idx / len(train_loader), loss.data[0]))
+
+Test set: Average loss: 0.0187, Accuracy: 1000/10000 (10%)
+
+Midterm_2.py:112: UserWarning: invalid index of a 0-dim tensor. This will be an error in PyTorch 0.5. Use tensor.item() to convert a 0-dim tensor to a Python number
+  test_loss += criterion(output, target).data[0]
+Train Epoch: 1 [0/50000 (0%)]	Loss: 2.302585
+Train Epoch: 1 [3200/50000 (6%)]	Loss: 2.302585
+Train Epoch: 1 [6400/50000 (13%)]	Loss: 2.302585
+Train Epoch: 1 [9600/50000 (19%)]	Loss: 2.302585
+Train Epoch: 1 [12800/50000 (26%)]	Loss: 2.302585
+Train Epoch: 1 [16000/50000 (32%)]	Loss: 2.302585
+Train Epoch: 1 [19200/50000 (38%)]	Loss: 2.302585
+Train Epoch: 1 [22400/50000 (45%)]	Loss: 2.302585
+Train Epoch: 1 [25600/50000 (51%)]	Loss: 2.302585
+Train Epoch: 1 [28800/50000 (58%)]	Loss: 2.302585
+Train Epoch: 1 [32000/50000 (64%)]	Loss: 2.302585
+Train Epoch: 1 [35200/50000 (70%)]	Loss: 2.302585
+Train Epoch: 1 [38400/50000 (77%)]	Loss: 2.302585
+Train Epoch: 1 [41600/50000 (83%)]	Loss: 2.302585
+Train Epoch: 1 [44800/50000 (90%)]	Loss: 2.302585
+Train Epoch: 1 [48000/50000 (96%)]	Loss: 2.302585
+
+Test set: Average loss: 0.0187, Accuracy: 1000/10000 (10%)
+

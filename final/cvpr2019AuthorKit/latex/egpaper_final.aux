@@ -1,0 +1,128 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\citation{witten2016data}
+\citation{he2016deep}
+\citation{felzenszwalb2010object}
+\citation{sermanet2013overfeat}
+\citation{arbelaez2011contour}
+\citation{shotton2006textonboost}
+\citation{pinheiro2014recurrent}
+\citation{long2015fully}
+\citation{he2014exemplar}
+\citation{hariharan2014simultaneous}
+\citation{hariharan2015hypercolumns}
+\citation{li2016iterative}
+\citation{dai2015convolutional}
+\citation{dai2016instance}
+\citation{li2017fully}
+\citation{bai2017deep}
+\citation{Liang2015proposal}
+\citation{uhrig2016pixel}
+\citation{romera2016recurrent}
+\citation{kar2015amodal}
+\citation{li2016amodal}
+\citation{li2016iterative}
+\citation{ehsani2017segan}
+\citation{premachandran2015pascal}
+\citation{lin2014microsoft}
+\citation{pinheiro2015learning}
+\citation{pinheiro2016learning}
+\HyPL@Entry{0<</S/D /St 4321>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{4321}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related Work}{4321}{section.2}}
+\citation{ehsani2017segan}
+\citation{li2017scene}
+\citation{lin2014microsoft}
+\citation{wang2017detecting}
+\citation{wang2017detecting}
+\citation{wang2015unsupervised}
+\citation{zhang2018deepvoting}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Model Setting}{4322}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Pairset Setting}{4322}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Reference Set}{4322}{subsubsection.3.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Query Set}{4322}{subsubsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}ScaleNet}{4322}{subsection.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Model}{4322}{section.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The mask transfer pipeline is to find the most similar complete mask for the correct position for mask transfer. We utilize voting and score these two branches. }}{4323}{figure.1}}
+\newlabel{fig:pipeline}{{1}{4323}{The mask transfer pipeline is to find the most similar complete mask for the correct position for mask transfer. We utilize voting and score these two branches}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}Voting Branch}{4323}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Visual Concept layer}{4323}{subsubsection.4.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Voting layer}{4323}{subsubsection.4.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Score Branch}{4323}{subsection.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Mask Transfer}{4323}{subsection.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Experiment}{4323}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}\hskip -1em.\nobreakspace  {}Dataset}{4323}{subsection.5.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces We train our baseline of 228 train image in COCO amodal dataset, and 320 train image chose from Cityscape dataset as our refenrence set. And 144 val image from COCO amodal dataset.}}{4323}{table.1}}
+\newlabel{tab:dataset}{{1}{4323}{We train our baseline of 228 train image in COCO amodal dataset, and 320 train image chose from Cityscape dataset as our refenrence set. And 144 val image from COCO amodal dataset}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Voting Branch}. We first go through $F_0$ :Backbone of resent50 and utilize a visual concept(VC) layer$F_1$ to generate response maps which represented in lower left quarter as $Y_q$: response map of query set and $Y_r$ : response map of refenrence set. These two images both highlight in left and upper corner which means VC layer learns consistent semantic meaning there. Then go through a ConvNet to get the predicted center $z$: voting heatmap, size $W' \times H' $. }}{4324}{figure.2}}
+\newlabel{fig:vote}{{2}{4324}{\textbf {Voting Branch}. We first go through $F_0$ :Backbone of resent50 and utilize a visual concept(VC) layer$F_1$ to generate response maps which represented in lower left quarter as $Y_q$: response map of query set and $Y_r$ : response map of refenrence set. These two images both highlight in left and upper corner which means VC layer learns consistent semantic meaning there. Then go through a ConvNet to get the predicted center $z$: voting heatmap, size $W' \times H' $}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Score Branch. $y$ is the similarity score between query and reference, $z'$ is the voting center for votng branch but as regularization.}}{4324}{figure.3}}
+\newlabel{fig:score}{{3}{4324}{Score Branch. $y$ is the similarity score between query and reference, $z'$ is the voting center for votng branch but as regularization}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Negetive maskIoU threshold is 0.55, positive maskIoU threshold is 0.75}}{4325}{table.2}}
+\newlabel{tab:data number}{{2}{4325}{Negetive maskIoU threshold is 0.55, positive maskIoU threshold is 0.75}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}\hskip -1em.\nobreakspace  {}Voting and score Result}{4325}{subsection.5.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces we compute each detla between voting result and ground truth. $ mindetla $ means we get minimum delta from the best epoch. $ rgood(0.1) $ means relative error of both x and y axis is within 10\%. }}{4325}{table.3}}
+\newlabel{tab:vote_result}{{3}{4325}{we compute each detla between voting result and ground truth. $ mindetla $ means we get minimum delta from the best epoch. $ rgood(0.1) $ means relative error of both x and y axis is within 10\%}{table.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces  $pos\_acc$ and $neg\_acc$ show positive and negative pairs' accuracy. The accuracy of positive and negative are balanced.}}{4325}{table.4}}
+\newlabel{tab:score_result}{{4}{4325}{$pos\_acc$ and $neg\_acc$ show positive and negative pairs' accuracy. The accuracy of positive and negative are balanced}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces From left to right: Voting result, voting ground truth, query image patch. Voting result is close to voting target which proves voting accuracy. The voting result heatmap shows the direction and distance relative to voting target. When voting result is below the central point, it means our real center in image patch is above the central point.}}{4325}{figure.4}}
+\newlabel{fig:vote_vis}{{4}{4325}{From left to right: Voting result, voting ground truth, query image patch. Voting result is close to voting target which proves voting accuracy. The voting result heatmap shows the direction and distance relative to voting target. When voting result is below the central point, it means our real center in image patch is above the central point}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces First row shows query image patch on the left and ref set on the right. Response map of query and ref are on the second and third row. Response maps generated from VC layer indicates some semantic parts in different maps. Second row and third row show that VC layer learns the consistent semantic meaning of query and ref, so they highlight on the same parts.}}{4325}{figure.5}}
+\newlabel{fig:response_vis}{{5}{4325}{First row shows query image patch on the left and ref set on the right. Response map of query and ref are on the second and third row. Response maps generated from VC layer indicates some semantic parts in different maps. Second row and third row show that VC layer learns the consistent semantic meaning of query and ref, so they highlight on the same parts}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces First column shows score branch regularization result, and image patches are on the right. One car generates one highlight heatmap while two ouputs two highlight points.}}{4325}{figure.6}}
+\newlabel{fig:score_vis}{{6}{4325}{First column shows score branch regularization result, and image patches are on the right. One car generates one highlight heatmap while two ouputs two highlight points}{figure.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces $meanIoU$ means IoU between predicted mask and ground truth mask. Our method improves meanIoU but get AP result not so good.}}{4325}{table.5}}
+\newlabel{tab: AP}{{5}{4325}{$meanIoU$ means IoU between predicted mask and ground truth mask. Our method improves meanIoU but get AP result not so good}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}\hskip -1em.\nobreakspace  {}Mask Transfer }{4325}{subsection.5.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}\hskip -1em.\nobreakspace  {}Conclusion}{4325}{section.6}}
+\bibstyle{ieee}
+\bibdata{egbib}
+\bibcite{arbelaez2011contour}{1}
+\bibcite{bai2017deep}{2}
+\bibcite{dai2015convolutional}{3}
+\bibcite{dai2016instance}{4}
+\bibcite{ehsani2017segan}{5}
+\bibcite{felzenszwalb2010object}{6}
+\bibcite{hariharan2014simultaneous}{7}
+\bibcite{hariharan2015hypercolumns}{8}
+\bibcite{he2016deep}{9}
+\bibcite{he2014exemplar}{10}
+\bibcite{kar2015amodal}{11}
+\bibcite{li2016iterative}{12}
+\bibcite{li2016amodal}{13}
+\bibcite{li2017scene}{14}
+\bibcite{li2017fully}{15}
+\bibcite{Liang2015proposal}{16}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces First colume(a) shows the origin image patches. Second column(b) shows Mask R-CNN proposals which is incomplete while third column(c) is the predicted complete mask for our method. And the last(d) is the ground truth mask.}}{4326}{figure.7}}
+\newlabel{fig:result}{{7}{4326}{First colume(a) shows the origin image patches. Second column(b) shows Mask R-CNN proposals which is incomplete while third column(c) is the predicted complete mask for our method. And the last(d) is the ground truth mask}{figure.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces We get better AP in lower IoU thresholds but worse in higher IoU thresholds. Maybe there is some weakness in VC layer-based matching, it could be our future work to consider an alternative matching strategy to fix this problem. }}{4326}{table.6}}
+\newlabel{tab:analysis}{{6}{4326}{We get better AP in lower IoU thresholds but worse in higher IoU thresholds. Maybe there is some weakness in VC layer-based matching, it could be our future work to consider an alternative matching strategy to fix this problem}{table.6}{}}
+\bibcite{lin2014microsoft}{17}
+\bibcite{long2015fully}{18}
+\bibcite{pinheiro2014recurrent}{19}
+\bibcite{pinheiro2015learning}{20}
+\bibcite{pinheiro2016learning}{21}
+\bibcite{premachandran2015pascal}{22}
+\bibcite{romera2016recurrent}{23}
+\bibcite{sermanet2013overfeat}{24}
+\bibcite{shotton2006textonboost}{25}
+\bibcite{uhrig2016pixel}{26}
+\bibcite{wang2017detecting}{27}
+\bibcite{wang2015unsupervised}{28}
+\bibcite{witten2016data}{29}
+\bibcite{zhang2018deepvoting}{30}
